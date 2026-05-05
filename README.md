@@ -10,7 +10,7 @@ A **Claude Skill** plus a **portable prompt** that works in any LLM. No Python, 
 [![Format: Anthropic Skill](https://img.shields.io/badge/Format-Anthropic%20Skill-orange.svg)](https://docs.claude.com/en/docs/agents-and-tools/skills)
 [![Works in any LLM](https://img.shields.io/badge/Also%20works%20in-Claude.ai%20%C2%B7%20ChatGPT%20%C2%B7%20Gemini%20%C2%B7%20Copilot-6E40C9.svg)](./boardroom-portable.md)
 [![Status: v1](https://img.shields.io/badge/Status-v1-green.svg)](#)
-[![GitHub stars](https://img.shields.io/github/stars/teemutuo/boardroom_skills?style=social)](https://github.com/teemutuo/boardroom_skills/stargazers)
+
 
 ![Boardroom architecture](./assets/architecture.svg)
 
