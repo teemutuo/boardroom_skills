@@ -1,0 +1,30 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.directory
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.npm/
+node_modules/
+
+# Local config (not for distribution)
+boardroom-config.md
+.env
+.env.local
+
+# Build artifacts
+build/
+dist/
+*.pyc
+__pycache__/

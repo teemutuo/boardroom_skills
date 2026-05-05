@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 760" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.10"/>
+    </filter>
+    <filter id="boxShadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0,0 L11,6 L0,12 z" fill="#1E3A8A"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1300" height="760" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="650" y="44" font-size="24" font-weight="700" fill="#0B1220" text-anchor="middle" letter-spacing="-0.3">How Boardroom orchestrates a decision review</text>
+  <text x="650" y="68" font-size="13" fill="#64748B" text-anchor="middle" letter-spacing="0.2">Seven parallel isolated council members → structured synthesis → decision-grade output</text>
+
+  <!-- INPUT BOX -->
+  <rect x="440" y="100" width="420" height="72" rx="10" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.5" filter="url(#boxShadow)"/>
+  <text x="650" y="126" font-size="10.5" font-weight="700" fill="#1E3A8A" text-anchor="middle" letter-spacing="2.5">YOUR DECISION</text>
+  <text x="650" y="152" font-size="14" font-style="italic" fill="#0B1220" text-anchor="middle">"Should we raise enterprise prices 25%?"</text>
+
+  <!-- Arrow down to Phase 1 -->
+  <line x1="650" y1="174" x2="650" y2="208" stroke="#1E3A8A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- PHASE 1 BOX -->
+  <rect x="50" y="214" width="1200" height="252" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="50" y="214" width="1200" height="36" rx="14" fill="#0F1E3D"/>
+  <rect x="50" y="234" width="1200" height="16" fill="#0F1E3D"/>
+  <text x="74" y="237" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="2.5">PHASE 1  ·  PARALLEL ISOLATED COUNCIL MEMBERS</text>
+
+  <!-- Seven role cards: CEO, CFO, COO, CTO, GC, CHRO, Board Chair -->
+  <!-- CEO -->
+  <g filter="url(#cardShadow)">
+    <rect x="76" y="276" width="152" height="108" rx="8" fill="#1E3A8A"/>
+    <rect x="76" y="276" width="152" height="3" rx="1" fill="#60A5FA"/>
+    <text x="152" y="306" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">CEO</text>
+    <text x="152" y="338" font-size="10.5" fill="#BFDBFE" text-anchor="middle">strategic positioning</text>
+    <text x="152" y="354" font-size="10.5" fill="#BFDBFE" text-anchor="middle">long-term horizon</text>
+    <text x="152" y="370" font-size="10.5" fill="#BFDBFE" text-anchor="middle">narrative coherence</text>
+  </g>
+
+  <!-- CFO -->
+  <g filter="url(#cardShadow)">
+    <rect x="242" y="276" width="152" height="108" rx="8" fill="#1E3A8A"/>
+    <rect x="242" y="276" width="152" height="3" rx="1" fill="#60A5FA"/>
+    <text x="318" y="306" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">CFO</text>
+    <text x="318" y="338" font-size="10.5" fill="#BFDBFE" text-anchor="middle">cash &amp; payback</text>
+    <text x="318" y="354" font-size="10.5" fill="#BFDBFE" text-anchor="middle">scenario analysis</text>
+    <text x="318" y="370" font-size="10.5" fill="#BFDBFE" text-anchor="middle">covenant headroom</text>
+  </g>
+
+  <!-- COO -->
+  <g filter="url(#cardShadow)">
+    <rect x="408" y="276" width="152" height="108" rx="8" fill="#1E3A8A"/>
+    <rect x="408" y="276" width="152" height="3" rx="1" fill="#60A5FA"/>
+    <text x="484" y="306" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">COO</text>
+    <text x="484" y="338" font-size="10.5" fill="#BFDBFE" text-anchor="middle">execution capacity</text>
+    <text x="484" y="354" font-size="10.5" fill="#BFDBFE" text-anchor="middle">operational risk</text>
+    <text x="484" y="370" font-size="10.5" fill="#BFDBFE" text-anchor="middle">scaling readiness</text>
+  </g>
+
+  <!-- CTO -->
+  <g filter="url(#cardShadow)">
+    <rect x="574" y="276" width="152" height="108" rx="8" fill="#1E3A8A"/>
+    <rect x="574" y="276" width="152" height="3" rx="1" fill="#60A5FA"/>
+    <text x="650" y="306" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">CTO</text>
+    <text x="650" y="338" font-size="10.5" fill="#BFDBFE" text-anchor="middle">technical lock-in</text>
+    <text x="650" y="354" font-size="10.5" fill="#BFDBFE" text-anchor="middle">build vs. buy</text>
+    <text x="650" y="370" font-size="10.5" fill="#BFDBFE" text-anchor="middle">architecture cost</text>
+  </g>
+
+  <!-- GC -->
+  <g filter="url(#cardShadow)">
+    <rect x="740" y="276" width="152" height="108" rx="8" fill="#1E3A8A"/>
+    <rect x="740" y="276" width="152" height="3" rx="1" fill="#60A5FA"/>
+    <text x="816" y="306" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">GC</text>
+    <text x="816" y="338" font-size="10.5" fill="#BFDBFE" text-anchor="middle">contractual exposure</text>
+    <text x="816" y="354" font-size="10.5" fill="#BFDBFE" text-anchor="middle">regulatory risk</text>
+    <text x="816" y="370" font-size="10.5" fill="#BFDBFE" text-anchor="middle">governance</text>
+  </g>
+
+  <!-- CHRO -->
+  <g filter="url(#cardShadow)">
+    <rect x="906" y="276" width="152" height="108" rx="8" fill="#1E3A8A"/>
+    <rect x="906" y="276" width="152" height="3" rx="1" fill="#60A5FA"/>
+    <text x="982" y="306" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">CHRO</text>
+    <text x="982" y="338" font-size="10.5" fill="#BFDBFE" text-anchor="middle">regretted attrition</text>
+    <text x="982" y="354" font-size="10.5" fill="#BFDBFE" text-anchor="middle">org design &amp; comp</text>
+    <text x="982" y="370" font-size="10.5" fill="#BFDBFE" text-anchor="middle">cultural runway</text>
+  </g>
+
+  <!-- BOARD CHAIR (Red Team) -->
+  <g filter="url(#cardShadow)">
+    <rect x="1072" y="276" width="152" height="108" rx="8" fill="#991B1B"/>
+    <rect x="1072" y="276" width="152" height="3" rx="1" fill="#FCA5A5"/>
+    <text x="1148" y="304" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">BOARD CHAIR</text>
+    <text x="1148" y="320" font-size="9" font-weight="600" fill="#FECACA" text-anchor="middle" letter-spacing="1.5">RED TEAM</text>
+    <text x="1148" y="346" font-size="10.5" fill="#FECACA" text-anchor="middle">blind spots</text>
+    <text x="1148" y="362" font-size="10.5" fill="#FECACA" text-anchor="middle">motivated reasoning</text>
+    <text x="1148" y="378" font-size="10.5" fill="#FECACA" text-anchor="middle">hostile activist view</text>
+  </g>
+
+  <!-- Sealed-context note -->
+  <rect x="76" y="402" width="1148" height="50" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="650" y="422" font-size="11.5" fill="#334155" text-anchor="middle">Each role runs in a <tspan font-weight="700" fill="#1E3A8A">sealed subagent context</tspan> — sees only its own role specification + the decision.</text>
+  <text x="650" y="438" font-size="11.5" fill="#334155" text-anchor="middle">No cross-contamination of perspective. Outputs are structurally independent — different vocabulary, different forbidden moves, different concerns.</text>
+
+  <!-- Arrow down to Phase 2 -->
+  <line x1="650" y1="472" x2="650" y2="506" stroke="#1E3A8A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- PHASE 2 BOX -->
+  <rect x="270" y="512" width="760" height="140" rx="14" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="270" y="512" width="760" height="36" rx="14" fill="#0F1E3D"/>
+  <rect x="270" y="532" width="760" height="16" fill="#0F1E3D"/>
+  <text x="294" y="535" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="2.5">PHASE 2  ·  AGGREGATOR SYNTHESIS</text>
+
+  <text x="310" y="572" font-size="12.5" fill="#0B1220">●  Where the council <tspan font-weight="700">agrees</tspan> — the consensus signal</text>
+  <text x="310" y="592" font-size="12.5" fill="#0B1220">●  <tspan font-weight="700">Named disagreements</tspan> — who pushes back against whom, on what specifically</text>
+  <text x="310" y="612" font-size="12.5" fill="#0B1220">●  Questions <tspan font-weight="700">not yet answered</tspan> — what data the council still needs</text>
+  <text x="310" y="632" font-size="12.5" fill="#0B1220">●  The risk <tspan font-weight="700">no role fully owns</tspan> — the orphaned concern</text>
+
+  <!-- Arrow down to Output -->
+  <line x1="650" y1="654" x2="650" y2="688" stroke="#1E3A8A" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- OUTPUT BOX -->
+  <rect x="390" y="694" width="520" height="60" rx="10" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.5" filter="url(#boxShadow)"/>
+  <text x="650" y="717" font-size="10.5" font-weight="700" fill="#1E3A8A" text-anchor="middle" letter-spacing="2.5">STRUCTURED OUTPUT</text>
+  <text x="650" y="739" font-size="13" fill="#0B1220" text-anchor="middle">Decision-review table  ·  named disagreements  ·  orphaned-risk callout</text>
+
+  <!-- Wordmark -->
+  <text x="1250" y="744" font-size="9" font-weight="600" fill="#94A3B8" text-anchor="end" letter-spacing="2">BOARDROOM</text>
+</svg>
